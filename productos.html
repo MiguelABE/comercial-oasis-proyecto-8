@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comercial Oasis | Productos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>Comercial Oasis</h1>
+            <p>Sucursal Matriz</p>
+        </div>
+    </header>
+
+    
+<nav class="navegacion">
+    <div class="contenedor menu">
+        <a href="index.html">Inicio</a>
+        <a class="activo" href="productos.html">Productos</a>
+        <a href="proveedores.html">Proveedores</a>
+        <a href="categorias.html">Categorías</a>
+        <a href="ayuda.html">Ayuda</a>
+    </div>
+</nav>
+
+
+    <main class="contenedor">
+
+        <section class="seccion">
+
+            <h2>Productos</h2>
+
+            <p>
+                En esta sección puedes consultar información general
+                de algunos productos de Comercial Oasis.
+            </p>
+
+            <div class="busqueda">
+
+                <label for="buscarProducto">
+                    Buscar producto
+                </label>
+
+                <input
+                    type="text"
+                    id="buscarProducto"
+                    placeholder="Escribe el nombre de un producto..."
+                >
+
+            </div>
+
+            <p id="resultadoBusqueda" class="resultado"></p>
+
+            <div class="tarjetas productos">
+
+                <article class="tarjeta producto" data-nombre="Arroz">
+                    <h3>Arroz</h3>
+                    <p>Producto básico de la canasta alimentaria.</p>
+                    <span class="categoria">Abarrotes</span>
+                </article>
+
+                <article class="tarjeta producto" data-nombre="Frijol">
+                    <h3>Frijol</h3>
+                    <p>Producto alimenticio de consumo básico.</p>
+                    <span class="categoria">Abarrotes</span>
+                </article>
+
+                <article class="tarjeta producto" data-nombre="Leche">
+                    <h3>Leche</h3>
+                    <p>Producto de consumo alimenticio.</p>
+                    <span class="categoria">Lácteos</span>
+                </article>
+
+                <article class="tarjeta producto" data-nombre="Galletas">
+                    <h3>Galletas</h3>
+                    <p>Producto disponible dentro de la categoría de botanas.</p>
+                    <span class="categoria">Botanas</span>
+                </article>
+
+                <article class="tarjeta producto" data-nombre="Refresco">
+                    <h3>Refresco</h3>
+                    <p>Bebida disponible para consulta dentro del sitio.</p>
+                    <span class="categoria">Bebidas</span>
+                </article>
+
+                <article class="tarjeta producto" data-nombre="Agua">
+                    <h3>Agua</h3>
+                    <p>Bebida de consumo general.</p>
+                    <span class="categoria">Bebidas</span>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor">
+            <p>&copy; 2026 Comercial Oasis – Sucursal Matriz</p>
+            <p>Sitio web informativo</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comercial Oasis | Ayuda</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>Comercial Oasis</h1>
+            <p>Sucursal Matriz</p>
+        </div>
+    </header>
+
+<nav class="navegacion">
+    <div class="contenedor menu">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="proveedores.html">Proveedores</a>
+        <a href="categorias.html">Categorías</a>
+        <a class="activo" href="ayuda.html">Ayuda</a>
+    </div>
+</nav>
+
+    <main class="contenedor">
+
+        <section class="seccion">
+
+            <h2>Ayuda</h2>
+
+            <p>
+                Esta sección proporciona información para facilitar
+                la navegación dentro del sitio web.
+            </p>
+
+            <div class="preguntas">
+
+                <article class="pregunta">
+                    <button onclick="mostrarRespuesta('respuesta1')">
+                        ¿Cómo puedo consultar los productos?
+                    </button>
+
+                    <div id="respuesta1" class="respuesta">
+                        <p>
+                            Ingresa a la sección Productos desde
+                            el menú principal.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="pregunta">
+                    <button onclick="mostrarRespuesta('respuesta2')">
+                        ¿Cómo puedo consultar las categorías?
+                    </button>
+
+                    <div id="respuesta2" class="respuesta">
+                        <p>
+                            Selecciona la opción Categorías en el
+                            menú de navegación.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="pregunta">
+                    <button onclick="mostrarRespuesta('respuesta3')">
+                        ¿Puedo realizar compras desde el sitio?
+                    </button>
+
+                    <div id="respuesta3" class="respuesta">
+                        <p>
+                            No. El sitio tiene una finalidad
+                            informativa y visual.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor">
+            <p>&copy; 2026 Comercial Oasis – Sucursal Matriz</p>
+            <p>Sitio web informativo</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
